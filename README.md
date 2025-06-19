@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# GrafCalc React
 
-## Project info
+GrafCalc React es una calculadora gráfica interactiva moderna construida con React, Vite y TailwindCSS, que permite visualizar funciones matemáticas en tiempo real.
 
-**URL**: https://lovable.dev/projects/dbcfc3ff-7773-47b7-8859-e9727d9b8c6b
+## Características
 
-## How can I edit this code?
+- 🎨 Interfaz moderna y minimalista con tema oscuro
+- 📊 Visualización de múltiples funciones simultáneamente
+- 🎯 Control interactivo del zoom y desplazamiento (drag & zoom con la rueda del mouse)
+- 🖱️ Coordenadas y valores de funciones en tiempo real al pasar el mouse
+- 🎨 Personalización de colores para cada función
+- 📱 Diseño responsivo
+- 🔍 Zoom con la rueda del mouse
+- 🖼️ Cuadrícula adaptativa según el nivel de zoom
+- 👁️ Mostrar/ocultar funciones y eliminar funciones fácilmente
 
-There are several ways of editing your application.
+## Requisitos Previos
 
-**Use Lovable**
+- Node.js (versión 16 o superior)
+- npm o pnpm (incluido con Node.js)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dbcfc3ff-7773-47b7-8859-e9727d9b8c6b) and start prompting.
+## Instalación
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clona el repositorio:
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/LotusZaheer/grafcalc-react.git
+cd grafcalc-react
 ```
 
-**Edit a file directly in GitHub**
+2. Instala las dependencias:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm install
+# o
+pnpm install
+```
 
-**Use GitHub Codespaces**
+3. Inicia el servidor de desarrollo:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run dev
+# o
+pnpm dev
+```
 
-## What technologies are used for this project?
+4. Abre tu navegador en `http://localhost:5173` (o el puerto que indique la terminal)
 
-This project is built with:
+## Uso
 
-- Vite
-- TypeScript
+1. Haz clic en "Agregar Función" para introducir una nueva función matemática usando la sintaxis de JavaScript (ej: `x^2`, `sin(x)`, `2*x + 1`)
+2. Personaliza el color de cada función usando los selectores de color
+3. Usa el botón de visibilidad para mostrar/ocultar funciones y el ícono de papelera para eliminarlas
+4. Controla el zoom con la rueda del mouse
+5. Arrastra el gráfico para desplazarte
+6. Pasa el mouse sobre la gráfica para ver las coordenadas y valores exactos de las funciones
+
+## Tecnologías Utilizadas
+
 - React
-- shadcn-ui
-- Tailwind CSS
+- TypeScript
+- Vite
+- TailwindCSS
+- Canvas API
+- Math.js
+- Radix UI (componentes de interfaz)
 
-## How can I deploy this project?
+## Contribuir
 
-Simply open [Lovable](https://lovable.dev/projects/dbcfc3ff-7773-47b7-8859-e9727d9b8c6b) and click on Share -> Publish.
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría hacer.
 
-## Can I connect a custom domain to my Lovable project?
+## Licencia
 
-Yes, you can!
+[MIT](https://choosealicense.com/licenses/mit/)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Repositorio oficial: https://github.com/LotusZaheer/grafcalc-react.git
